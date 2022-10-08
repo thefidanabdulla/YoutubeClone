@@ -3,14 +3,14 @@ import React from 'react';
 import { VideoCard } from './';
 import { ChannelCard } from './'
 
-const Videos = ({ videos }) => {
+const Videos = ({ videos, direction }) => {
 
-
+  if(!videos?.length) return 'Loading...'
 
   return (
     <Stack
       justifyContent='start'
-      direction='row'
+      direction={direction || 'row'}
       flexWrap='wrap'
       gap={2}
     >

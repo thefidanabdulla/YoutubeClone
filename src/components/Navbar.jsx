@@ -7,7 +7,7 @@ import React from 'react';
 
 const Navbar = () => (
   <Stack 
-    sx={{position: 'sticky', backgroung: '#000', top: 0, justifyContent: 'space-between'}}
+    sx={{position: 'sticky', background: '#00000099', top: 0, justifyContent: 'space-between'}}
     alignItems='center' 
     direction='row' 
     p={2} 
